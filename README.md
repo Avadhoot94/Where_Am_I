@@ -126,7 +126,7 @@ Option 1:
 Give navigation goal to the robot in ```RViz``` using ```2D Nav Goal``` button
 
 Option 2:
-Control the robot using keyboard by launching the ```teleop``` package ([step 7](#7-Launch-the-Teleop-package-optional)
+Control the robot using keyboard by launching the ```teleop``` package ([step 7](#7-Launch-the-Teleop-package-optional))
 
 ## Missing minor feature
 The ```~/Where_Am_I/my_robot/world/Avadhoot.world``` file uses ```~/Where_Am_I/my_robot/meshes/RoboLeg.STL``` for the legs of the **static** robot model as indicated in the picture below:
