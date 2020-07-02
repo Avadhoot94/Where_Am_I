@@ -119,14 +119,14 @@ $ roslaunch my_robot amcl.launch
 ```
 $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
-Requires ```teleop``` package ([step 3](#Clone-the-files-in-/home/workspace))
+Requires ```teleop``` package ([step 3](#3.-clone-the-files-in-homeworkspace))
 
 #### 8. Control the robot
 Option 1:
 Give navigation goal to the robot in ```RViz``` using ```2D Nav Goal``` button
 
 Option 2:
-Control the robot using keyboard by launching the ```teleop``` package ([step 7](#Launch-the-Teleop-package-(optional)))
+Control the robot using keyboard by launching the ```teleop``` package ([step 7](#7.-Launch-the-Teleop-package-(optional)))
 
 ## Missing minor feature
 The ```~/Where_Am_I/my_robot/world/Avadhoot.world``` file uses ```~/Where_Am_I/my_robot/meshes/RoboLeg.STL``` for the legs of the **static** robot model as indicated in the picture below:
