@@ -4,64 +4,49 @@
 
 # Project 03 (of 05) : Where Am I
 ## Directory Structure
-```
-.Where_Am_I
-   ├── my_robot
-   │   ├── CMakeLists.txt
-   │   ├── config
+<pre>
+.Where_Am_I                                      # Where_Am_I project
+   ├── my_robot                                  # my_robot package
+   │   ├── CMakeLists.txt                        # compiler instructions
+   │   ├── config                                #configuration files for move_base package
    │   │   ├── base_local_planner_params.yaml
    │   │   ├── costmap_common_params.yaml
    │   │   ├── global_costmap_params.yaml
    │   │   ├── local_costmap_params.yaml
-   │   │   └── __MACOSX
-   │   ├── launch
+   │   ├── launch                                # launch folder for launch files 
    │   │   ├── amcl.launch
    │   │   ├── robot_description.launch
    │   │   └── world.launch
    │   ├── maps
-   │   │   ├── my_map.pgm
-   │   │   └── my_map.yaml
-   │   ├── meshes
-   │   │   └── hokuyo.dae
-   │   ├── package.xml
-   │   ├── urdf
+   │   │   ├── my_map.pgm                        # created using ROS package: <a href="https://github.com/udacity/pgm_map_creator" title="pgm_map_creator">pgm_map_creator</a> 
+   │   │   └── my_map.yaml                       # metadata about the map
+   │   ├── meshes                                # meshes folder for sensors and model
+   │   │   ├── hokuyo.dae                        # mesh for laser scanner
+   │   │   └── RoboLeg.STL                       # CAD file of Robot's leg (made in SolidWorks)
+   │   ├── package.xml                           # package info
+   │   ├── urdf                                  # urdf folder for xarco files
    │   │   ├── my_robot.gazebo
    │   │   └── my_robot.xacro
-   │   └── worlds
-   │       ├── empty.world
-   │       └── my_world.world
-   ├── pgm_map_creator
-   │   ├── CMakeLists.txt
-   │   ├── launch
-   │   │   └── request_publisher.launch
-   │   ├── LICENSE
-   │   ├── maps
-   │   │   └── map.pgm
-   │   ├── msgs
-   │   │   ├── CMakeLists.txt
-   │   │   └── collision_map_request.proto
-   │   ├── package.xml
-   │   ├── README.md
-   │   ├── src
-   │   │   ├── collision_map_creator.cc
-   │   │   └── request_publisher.cc
-   │   └── world
-   │       ├── my_world.world
-   │       └── udacity_mtv
-   ├── teleop_twist_keyboard
+   │   └── worlds                                # world folder for world files
+   │       └── Avadhoot.world
+   ├── teleop_twist_keyboard                     # ROS package
    │   ├── CHANGELOG.rst
-   │   ├── CMakeLists.txt
-   │   ├── package.xml
+   │   ├── CMakeLists.txt                        # compiler instructions
+   │   ├── package.xml                           # package info
    │   ├── README.md
-   │   └── teleop_twist_keyboard.py
+   │   └── teleop_twist_keyboard.py              #python script for controlling robot
    ├── LICENSE
    ├── README.md
    │
-```
+   
+</pre>
 
 ## Project Goals
 
 ## Output 
+
+## Environment
+Tested on Ubuntu 16.04.6 LTS, ROS Kinetic, Boost 1.58
 
 ## Setup and run
 Note: The commands in this README work, considering that the main workspace is located at ```/home/robond/workspace/catkin_ws/src```      
