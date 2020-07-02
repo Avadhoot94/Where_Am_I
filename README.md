@@ -42,6 +42,11 @@
 </pre>
 
 ## Project Goals
+Creating a ROS package that launches a custom robot model in a custom Gazebo world.
+
+Utilizing the ROS AMCL package and the Tele-Operation / Navigation Stack to localize the robot.
+
+Explore, add, and tune specific parameters corresponding to each package to achieve the best possible localization results
 
 ## Output 
 
