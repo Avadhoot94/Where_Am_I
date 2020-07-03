@@ -49,7 +49,7 @@ Utilizing the ROS AMCL package and the Tele-Operation / Navigation Stack to loca
 Explore, add, and tune specific parameters corresponding to each package to achieve the best possible localization results
 
 ## Output 
-
+![](output/output_gif.gif)
 ## Environment
 Tested on Ubuntu 16.04.6 LTS, ROS Kinetic, Boost 1.58
 
