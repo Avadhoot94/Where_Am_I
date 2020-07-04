@@ -34,7 +34,7 @@
    │   ├── CMakeLists.txt                        # compiler instructions
    │   ├── package.xml                           # package info
    │   ├── README.md
-   │   └── teleop_twist_keyboard.py              #python script for controlling robot
+   │   └── teleop_twist_keyboard.py              # python script for controlling robot
    ├── LICENSE
    ├── README.md
    │
