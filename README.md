@@ -90,7 +90,7 @@ Optional: If you want to control the robot using keyboard (```teleop``` package)
 $ cd /home/robond/workspace/catkin_ws/src/Where_Am_I
 $ git clone https://github.com/ros-teleop/teleop_twist_keyboard
 ```
-#### 4. Create a build directory and compile the code
+#### 4. Build the package
 ```
 $ cd /home/robond/workspace/catkin_ws
 $ catkin_make
