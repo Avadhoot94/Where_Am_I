@@ -51,6 +51,7 @@ Explore, add, and tune specific parameters corresponding to each package to achi
 ## Output 
 Speed: x5 (original speed is the simulation speed which depends on the processing power of the system)
 ![](output/output_gif.gif)
+
 ``` The output is unavailable because the LFS limit has been exceeded. I'm working on figuring it out```
 
 ## Environment
